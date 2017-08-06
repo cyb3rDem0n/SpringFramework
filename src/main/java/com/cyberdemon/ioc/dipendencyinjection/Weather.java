@@ -2,6 +2,7 @@ package com.cyberdemon.ioc.dipendencyinjection;
 
 import java.util.Random;
 
+
 public class Weather {
 	static private Random r = new Random(System.currentTimeMillis());
 	public String description;
